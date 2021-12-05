@@ -8,7 +8,7 @@ practice exercise.
 questions.json contains the questionIds referenced by exercises.json and the
 questionData for perseus.
 
-To view the data in these files, I recommend using [`jq`](https://stedolan.github.io/jq/)`:
+To view the data in these files, I recommend using [`jq`](https://stedolan.github.io/jq/):
 
 ```sh
 cat exercises.json | jq '.[0]'  # shows the first exercise
