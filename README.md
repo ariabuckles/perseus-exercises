@@ -8,6 +8,13 @@ practice exercise.
 questions.json contains the questionIds referenced by exercises.json and the
 questionData for perseus.
 
+To view the data in these files, I recommend using [`jq`](https://stedolan.github.io/jq/)`:
+
+```sh
+cat exercises.json | jq '.[0]'  # shows the first exercise
+cat question.json | jq '.[0]'   # shows the first question
+```
+
 ## License
 
 Khan Academy exercises, and this repository, are licensed under `CC BY-NC-SA 3.0`](https://creativecommons.org/licenses/by-nc-sa/3.0/)
