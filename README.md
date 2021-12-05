@@ -12,7 +12,7 @@ To view the data in these files, I recommend using [`jq`](https://stedolan.githu
 
 ```sh
 cat exercises.json | jq '.[0]'  # shows the first exercise
-cat question.json | jq '.[0]'   # shows the first question
+cat questions.json | jq '.[0]'  # shows the first question
 ```
 
 ## License
